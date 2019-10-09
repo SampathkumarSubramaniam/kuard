@@ -58,6 +58,7 @@ export default class App extends React.Component {
 
         <div className="nav-container">
           <div className="nav">
+            <HighlightLink href="#" className="nav-item">Team C - Test</HighlightLink>
             <HighlightLink href={base+"/"} className="nav-item">Request Details</HighlightLink>
             <HighlightLink href={base+"/-/env"} className="nav-item">Server Env</HighlightLink>
             <HighlightLink href={base+"/-/mem"} className="nav-item">Memory</HighlightLink>
